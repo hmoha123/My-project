@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:columnCount="2"
+    android:rowCount="4">
+
+    <!-- Row 1: Text + Flag -->
+    <TextView
+        android:id="@+id/labelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:text="@string/i_love_android"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/flagButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:src="@drawable/flag"
+        android:contentDescription="@string/flag"
+        android:background="@android:color/transparent" />
+
+    <!-- Row 2: Switch (left) -->
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="@string/switch_on_off" />
+
+    <!-- Row 3: Button + Checkbox -->
+    <Button
+        android:id="@+id/pressMeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="@string/press_me" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="@string/check_this_out" />
+
+    <!-- Row 4: EditText full row -->
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:hint="@string/i_love_android" />
+
+</GridLayout>
