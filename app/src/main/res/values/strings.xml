@@ -1,9 +1,19 @@
 <resources>
-    <string name="app_name">AndroidLabs</string>
+    <string name="app_name">CST2335 Lab 5</string>
 
-    <string name="i_love_android">I love Android</string>
-    <string name="switch_on_off">Switch on/off</string>
-    <string name="check_this_out">Check this out!</string>
-    <string name="press_me">Press Me</string>
-    <string name="flag">Flag</string>
+    <!-- MainActivity (name screen) -->
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name_hint"></string>
+    <string name="next">Next</string>
+
+    <!-- NameActivity -->
+    <string name="welcome_default">Welcome!</string>
+    <string name="welcome_with_name">Welcome %1$s!</string>
+    <string name="dont_call_me_that">Don’t call me that</string>
+    <string name="thank_you">Thank you</string>
+
+    <!-- TodoActivity (Lab 5) -->
+    <string name="hint_type_here">Type Here</string>
+    <string name="urgent">Urgent</string>
+    <string name="add">ADD</string>
 </resources>
