@@ -16,4 +16,6 @@
     <string name="hint_type_here">Type Here</string>
     <string name="urgent">Urgent</string>
     <string name="add">ADD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
